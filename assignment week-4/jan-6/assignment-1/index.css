@@ -1,0 +1,41 @@
+.main-box{
+    border:1px solid black;
+    box-shadow: 3px 3px black;
+    padding: 8%;
+    margin-left: 25%;
+    margin-right: 25%;
+
+}
+.content-box{
+    border:2px solid purple;
+    border-top:2px solid red;
+    border-bottom:2px solid red;
+
+
+}
+  .heading {
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 10%;
+    color: black;
+  }
+
+  p::first-letter {
+    font-size: 200%;
+    color: black;
+    vertical-align: sub;
+  }
+  
+  p {
+      text-align:justify;
+      
+
+    
+    
+  }
+ hr{
+     margin-left: 25%;
+     margin-right: 25%;
+ }
+  
+ 

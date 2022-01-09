@@ -1,0 +1,190 @@
+/*css for navigation bar
+--uranian-blue: #bde0feff;
+--baby-blue-eyes: #a2d2ffff;
+
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+}
+
+#b{
+    font-size: 80px;
+    font-family: Courier;
+    
+    text-shadow: 2px 2px 5px black;
+  
+}
+#z{
+    font-size: 30px;
+    font-family: Courier;
+    
+    text-shadow: 2px 2px 5px black;
+
+}
+
+.navbar{
+   
+    
+    width: 100%;
+    background:  #bde0feff;
+    position:fixed;
+    
+}
+
+.nav{
+    padding: 10px 8vw;
+    
+}
+
+.brand-logo{
+    height: 60px;
+    margin-right: 40px;
+}
+
+.nav-items{
+    float:right;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.search{
+    width: 500px;
+    float:left;
+}
+
+.search-box{
+    width: 80%;
+    height: 40px;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: 1px solid black;
+    background-color:white;
+    float:left;
+}
+
+.search-btn{
+    width: 20%;
+    height: 40px;
+    padding: 10px 20px;
+    background: #a2d2ffff;
+    font-size: 15px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+
+.nav-items a{
+    margin-left: 15px;
+}
+
+.nav-items a img{
+    width: 30px;
+}
+
+
+/*css for list below navigation bar*/
+
+
+.links-container{
+    width: 100%;
+    padding: 10px 450px;
+    justify-content: center;
+    border-top: 5px solid red;
+}
+
+.link{
+    
+    padding: 0 10px;
+    margin: 0 5px;
+    
+    color: #383838;
+    
+   
+}
+
+
+/*css for main body content*/
+
+.content{
+
+    text-align:center;
+    padding-top: 300px;
+    font-size: 100px;
+    font-family: cursive;
+    color:rgb(133, 82, 17);
+
+    border-top: 5px solid burlywood;
+
+
+    background-image: url("body.jpeg");
+    height:100%;
+    
+
+}
+
+.heading{
+    font-family: cursive;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    
+    width: 100%;
+    height: 40%;
+    padding: 40px 10vw;
+    padding-bottom: 80px;
+    background: #383838;
+}
+
+.footer-content{
+    
+    width: 100%;
+    
+}
+
+
+.footer-ul-container{
+    width: 100%;
+    height: 50%;
+    float:left;
+    justify-content: space-between;
+}
+
+.category{
+    width: 200px;
+    
+  
+    
+}
+
+.category-title{
+ 
+    color: rgb(199, 39, 39);
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.category .footer-link{
+   
+    color: rgba(216, 228, 215, 0.75);
+}
+
+
