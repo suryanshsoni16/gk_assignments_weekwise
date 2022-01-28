@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+}
+
+.main{
+    border:1px solid #8ccdf3;
+    border-radius: 10px;
+
+    background-color: #d6e7f1;
+    width: 500px;
+    height: 720px;
+    margin: auto;
+}
+
+.main h1{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 40px;
+    font-family: Arial Rounded MT;
+    font-weight: bold;
+}
+hr{
+    width: 25%;
+    height: 1%;
+    background-color: #7bd5f3;
+}
+
+.elements{
+    border: 1px solid hidden;
+    background-color: #FFFFFF;
+    width: 400px;
+    height: 500px;
+
+    margin:auto;
+    border-radius: 20px;
+}
+
+.circle{
+    border: 1px solid transparent;
+    background-color: #4BA8D0;
+    border-radius: 50%;
+    width: 180px;
+    height: 170px;
+    margin: auto;
+}
+
+#person-img{
+    border: 1px solid transparent;
+    border-radius: 50%;
+    width: 170px;
+    height: 170px;
+    margin: auto;
+}
+.elements h1{
+    font-size: 25px;
+    margin-top: 1px;
+}
+
+.elements p{
+    font-size: 25px;
+    margin: auto;
+    text-align: center;
+    font-family: Arial Rounded MT;
+    color: #80B9CD;
+
+}
+
+#info{
+    font-size: 15px;
+    width: 300px;
+    text-align: center;
+    color: rgb(107, 107, 107);
+}
+.button-container{
+    margin-top: 15px;
+    
+}
+
+.previous-btn{
+    border: 1px solid transparent;
+    background-color: transparent;
+}
+
+.previous-btn img{
+    width: 30px;
+    height: 30px;
+    margin-left: 150px;
+}
+
+.next-btn img{
+    width: 30px;
+    height: 30px;
+}
+
+.next-btn{
+    border: 1px solid transparent;
+    background-color: transparent;
+}
+
+.btn{
+    border: 1px solid rgb(190, 215, 238);
+    background-color: lightblue;
+    color: rgb(17, 184, 240);
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 150px;
+}
